@@ -6,5 +6,4 @@ describe Todo, "#completed?" do
 
     expect(todo).to be_completed
   end
-  it "returns false if completed_at is nil"
 end

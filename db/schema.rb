@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 20151018043253) do
     t.string   "title"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
-    t.datetime "completed_at"
     t.string   "email"
+    t.datetime "completed_at"
   end
 
 end
